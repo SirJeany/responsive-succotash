@@ -1,0 +1,62 @@
+/* Font family:  */
+@import url('https://fonts.googleapis.com/css?family=Dosis|Trade+Winds&display=swap');
+
+body{
+    background-color: #BDB4BF;
+}
+
+p {
+    color: #BDB4BF;
+    padding: 1em;
+    font-family: 'Trade Winds', cursive, Arial;
+}
+
+.extra-bubble-text {
+    font-family: 'Dosis', sans-serif;
+}
+
+.speech-bubble{
+    position: relative;
+	background: #2E4057;
+    border-radius: 2rem;
+    width: fit-content;
+    height: fit-content;
+    /* box-shadow: 10px; */
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+    left: 20%;
+	width: 0;
+	height: 0;
+	border: 2rem solid transparent;
+	border-top-color: #2E4057;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -0.516em;
+    margin-bottom: -1.031em;
+    /* border-radius: 2em; */
+}
+
+
+.speech-bubble:hover{
+    background-color: #AAFFAD;
+}
+
+.bubble{
+    content: '';
+	position: absolute;
+	bottom: 0;
+    left: 20%;
+	width: 0;
+	height: 0;
+	border: 1rem solid transparent;
+	border-top-color: #2E4057;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -0.516em;
+    margin-bottom: -1.031em;
+    border-radius: 1em;
+}

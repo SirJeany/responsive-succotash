@@ -1,0 +1,29 @@
+body {
+    background-color: #bada55;
+}
+
+header,
+section,
+aside,
+footer {
+    background-color: #2E4057;
+    /* margin: 0 2em 0 2em; */
+    padding: 2%;
+    margin: 3%;
+    color: antiquewhite;
+    height: 20vh;
+}
+
+section {
+    float: left;
+    width: 70%;
+}
+
+aside {
+    float: right;
+    width: 2em;
+}
+
+footer {
+    clear: both;
+}
