@@ -11,18 +11,27 @@
 <body>
     
     <header class="header">
-        <nav>
-            <a href="index.html">Bubbles</a>
+        <nav class="navbar navbar-dark bg-dark navbar-toggler">
+            <a class="navbar-brand" href="index.html">Bubbles</a>
             <a href="boxes.html">Boxes</a>
             <a href="bootstrap.html">Bootsrap</a>
-            <a href="/home">Cart</a>
+            <a href="">Cart</a>
         </nav>
     </header>
     
     <section class="container-fluid">
         <article class="col-md-2 bg-primary">Col 1</article>
         <article class="col-md-4 bg-secondary">Col 2</article>
-        <article class="col-md-4 bg-danger">Col 3</article>
+        <article class="col-md-4 bg-danger">Col 3
+            <div class="row container">
+                <div class="col-sm bg-light">
+                    Inside Col 1
+                </div>
+                <div class="col-sm bg-light">
+                    Inside Col 2
+                </div>
+            </div>
+        </article>
         <article class="col-md-4 bg-warning">Col 4</article>
     </section>
 
